@@ -1,0 +1,28 @@
+# ---- Personal planning docs (keep local, not on GitHub) ----
+
+# ---- Python ----
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+
+# ---- Jupyter ----
+.ipynb_checkpoints/
+
+# ---- ML artifacts ----
+*.pth
+*.pt
+*.h5
+*.keras
+*.onnx
+runs/
+wandb/
+mlruns/
+checkpoints/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+.vscode/
